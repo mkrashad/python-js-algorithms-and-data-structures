@@ -1,12 +1,12 @@
 function insertionSort(A) {
   for (j = 1; j < A.length; j++) {
-    let key = A[j];
+    let value = A[j];
     let i = j - 1;
-    while (i >= 0 && A[i] > key) {
+    while (i >= 0 && A[i] > value) {
       A[i + 1] = A[i];
       i--;
     }
-    A[i + 1] = key;
+    A[i + 1] = value;
   }
   return A;
 }

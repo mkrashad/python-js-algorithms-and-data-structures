@@ -9,4 +9,3 @@ def fibonacci(n):
 
 print(fibonacci(6))
 
-

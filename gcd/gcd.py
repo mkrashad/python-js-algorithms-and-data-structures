@@ -7,4 +7,3 @@ def gcd(a, b):
 
 print(gcd(10, 5))
 
-

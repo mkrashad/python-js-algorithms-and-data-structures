@@ -4,3 +4,4 @@ function gcd(a, b) {
 }
 
 console.log(gcd(10, 5));
+
